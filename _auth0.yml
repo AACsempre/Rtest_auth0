@@ -1,0 +1,10 @@
+name: teste00
+shiny_config:
+  local_url: http://localhost:7000
+  remote_url: <url>
+auth0_config:
+  scope: "openid email profile"
+  api_url: https://<AUTH0_USER>.eu.auth0.com
+  credentials:
+    key: <AUTH0_KEY>
+    secret: <AUTH0_SECRET>
